@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="find-job.css">
     <title>Find a Shaka Job</title>
+    <link rel="shortcut icon" href="img\shaka-job-logo.png" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <div class="logo"><img src="img\shaka-job-logo.png" alt="Shaka Job logo"></div>
@@ -20,5 +23,33 @@
         </nav>
 
     </header>
+    <main>
+        <h1>Du möchtest einen Shaka Job finden?</h1>
+
+        <h2>Fülle das folgende Formular aus. Wir zeigen dir dann Job, die zu dir passen:</h2>
+
+        <form action="">
+            <label for="vorname">Vorname:</label>
+            <input type="text" name="Vorname" id="vorname">
+            <label for="nachname">Nachname:</label>
+            <input type="text" name="Nachname" id="nachname">
+            <label for="email">E-Mail:</label>
+            <input type="email" name="E-Mail" id="email">
+            <label for="earliest_start">Earliest start date:</label>
+            <input type="date" name="Earliest Start" id="earliest_start">
+            <label for="latest_start">Latest start date:</label>
+            <input type="date" name="Latest Start" id="latest_start">
+            <p>Are you looking for a job as:</p>
+            <label for="instructor">Instructor?</label>
+            <input type="checkbox" name="Instructor" id="instructor">
+            <label for="teamer">Teamer</label>
+            <input type="checkbox" name="Teamer" id="teamer">
+            <label for="chef">Chef?</label>
+            <input type="checkbox" name="Chef" id="chef">
+            <input type="submit" value="Submit">
+
+        </form>
+    </main>
 </body>
+
 </html>
